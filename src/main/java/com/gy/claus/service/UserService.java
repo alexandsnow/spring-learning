@@ -11,6 +11,6 @@ public class UserService {
 
     @GyLog
     public void getUserInfo(String world) {
-        System.out.println("hello world" + world);
+        System.out.println("hello world " + world);
     }
 }

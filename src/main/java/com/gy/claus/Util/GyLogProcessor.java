@@ -20,7 +20,7 @@ public class GyLogProcessor {
         System.out.println("around aspect");
         System.out.println(proceedingJoinPoint.getSignature().getName());
         String arg = proceedingJoinPoint.getArgs()[0].toString();
-        Object[] objects = new Object[]{arg+"is good"};
+        Object[] objects = new Object[]{arg+" is good"};
         return proceedingJoinPoint.proceed(objects);
     }
 
